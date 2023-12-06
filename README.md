@@ -1,4 +1,5 @@
 
 # Я процессор
 
-[Примеры на fork](forks/README.md)
+[Управление процессами](procs/README.md)
+[Межпроцессное взаимодействие](intercom/README.md)
