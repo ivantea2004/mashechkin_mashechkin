@@ -40,7 +40,7 @@ main(int argc, char **argv) {
         error = 1;
         goto cleanup;
     }
-    Msg msg1 = {1, "Я процессор"};
+    Msg msg1 = {1, "Я процесс"};
     if (msgsnd(q, &msg1, strlen(msg1.buff) + 1, 0)) {
         perror("msgsnd");
         error = 1;
