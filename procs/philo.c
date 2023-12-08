@@ -63,7 +63,7 @@ user(int id)
 #if USE_GLOBAL_MUTEX
         pthread_mutex_unlock(&global);
 #endif
-        printf("%d locked %d %d\n", id, left, right); // Вывоим информацию о захвате вилок
+        printf("%d locked %d %d\n", id, left, right); // Выводим информацию о захвате вилок
 
         resource_unlock(resources + left);
         resource_unlock(resources + right);
